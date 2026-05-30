@@ -17,7 +17,7 @@ up how they work so other developers can do the same.
 | **[Bharat Doc Intelligence](https://github.com/sciencenerd-des/openai-ai-deployment-portfolio)** | Multimodal agent that reads Indian GST invoices (incl. regional-language scans) into validated, structured data and flags anomalies. Deterministic audit layer + evals + zero-key mock mode. | OpenAI Agents SDK · Responses API (vision) · FastAPI |
 | **[Financial Agents](https://github.com/sciencenerd-des/Financial_Agents)** | Event-driven five-agent mesh (perception · drafting · verification · orchestration · translation) with a FastAPI gateway, approval-gated workflow, and tests. | Python · multi-agent · FastAPI · Docker |
 | **[Upwork Portfolio](https://github.com/sciencenerd-des/upwork-portfolio)** | Three full-stack apps: an automated report generator, a document-intelligence service, and a task manager — each one-click deployable. | Python · Streamlit · FastAPI · Docker |
-| **[Task Manager](https://github.com/sciencenerd-des/task-manager)** | Full-stack Kanban app with real-time sync and OAuth. | Next.js 14 · Convex · WorkOS |
+| **[Task Manager](https://github.com/sciencenerd-des/task-manager)** | Full-stack Kanban app with real-time sync, OAuth, and AI-assisted natural-language task entry (OpenAI, with a zero-key fallback). | Next.js 14 · Convex · WorkOS · OpenAI |
 | **[MiniMythos](https://github.com/sciencenerd-des/minimythos)** | Research system around a recurrent-depth reasoning architecture for coding agents. | Python · PyTorch |
 
 ---
