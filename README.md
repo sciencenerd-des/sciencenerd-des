@@ -1,44 +1,103 @@
-# Biswajit Mondal
+<a href="https://sciencenerd-des.github.io/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
+    <img src="assets/header-light.png" width="100%" alt="Biswajit Mondal, freelance data analyst in Kolkata. Tableau and Power BI dashboards, built on clean data. Taking new projects.">
+  </picture>
+</a>
 
-**Full-stack engineer building — and teaching — practical LLM applications.**
-Multi-agent systems, multimodal pipelines, and eval-driven reliability, with an
-audit/finance background that makes me allergic to numbers that don't reconcile.
-Based in India 🇮🇳.
+**[View the portfolio](https://sciencenerd-des.github.io/)** &nbsp;&nbsp; **[Email me about a project](mailto:bmondal0000@gmail.com?subject=Project%20enquiry)**
 
-I like shipping small, sharp demos that show *how* to build with AI — and writing
-up how they work so other developers can do the same.
+## Five findings from my Tableau workbooks
 
----
+Each story point is a dashboard I built in Tableau Desktop from a public dataset. Click a dashboard to open it at full size.
 
-### 🛠️ Featured work
+<table>
+  <tr>
+    <td width="55%" valign="top"><a href="assets/india-d1.jpg"><img src="assets/india-d1.jpg" alt="India trade overview dashboard: export, import and balance KPI tiles, a 2024 line of monthly exports and imports, and monthly trade balance bars from 2022 to 2026, all in deficit."></a></td>
+    <td valign="top">
+      <sub>India trade workbook, dashboard 1 of 2</sub><br>
+      <b>India imported more than it exported in every month from 2022 to 2026</b><br><br>
+      <b>&minus;$274B</b> 2024 balance: $443B exports, $717B imports<br><br>
+      KPI tiles, a dual-axis line of monthly exports and imports, and monthly balance bars.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="assets/india-d2.jpg"><img src="assets/india-d2.jpg" alt="India trading partners dashboard: top 10 export destinations led by the United States, top 10 import sources led by China, and a world map sized by trade value."></a></td>
+    <td valign="top">
+      <sub>India trade workbook, dashboard 2 of 2</sub><br>
+      <b>The US buys the most from India; China sells it the most</b><br><br>
+      <b>US</b> top export market, about $80B<br>
+      <b>China</b> top import source, over $100B<br><br>
+      Top 10 partner rankings and a proportional-symbol world map.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="assets/himalaya-d1.jpg"><img src="assets/himalaya-d1.jpg" alt="Himalayan expedition history dashboard: expeditions by peak and by decade, peaking at 3,706 in the 2010s, and success rate by decade rising to about 70 percent."></a></td>
+    <td valign="top">
+      <sub>Himalayan expeditions workbook, dashboard 1 of 2</sub><br>
+      <b>Himalayan expedition success rose from about 25% to about 70% in a century</b><br><br>
+      <b>3,706</b> expeditions in the 2010s, the busiest decade<br><br>
+      Joins expeditions, members and peaks tables; time-granularity parameter.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="assets/himalaya-d2.jpg"><img src="assets/himalaya-d2.jpg" alt="Himalayan risk dashboard: member fatality rate by decade falling below 1 percent, a success versus fatality scatter sized by expedition count, and a peak ranking led by Everest with 2,329 expeditions."></a></td>
+    <td valign="top">
+      <sub>Himalayan expeditions workbook, dashboard 2 of 2</sub><br>
+      <b>The climber fatality rate fell below 1%, while Everest drew 2,329 expeditions</b><br><br>
+      Success vs fatality scatter sized by expedition count, with Top N, metric and minimum-expedition parameters.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><a href="assets/airbnb-d1.jpg"><img src="assets/airbnb-d1.jpg" alt="Seattle Airbnb pricing dashboard: average price by bedroom count from 90.6 to 576.4 dollars, listings by bedrooms, average price by zip code as a map and bar chart, and 2016 revenue by month."></a></td>
+    <td valign="top">
+      <sub>Seattle Airbnb workbook</sub><br>
+      <b>A six-bedroom Seattle Airbnb lists for over six times a one-bedroom</b><br><br>
+      <b>$91 to $576</b> average nightly price, 1 to 6 bedrooms<br>
+      <b>1,530</b> one-bedroom listings, the largest group<br><br>
+      Filled zip-code map, zip codes ranked by price, 2016 revenue trend.
+    </td>
+  </tr>
+</table>
 
-| Project | What it is | Stack |
-|---------|-----------|-------|
-| **[Bharat Doc Intelligence](https://github.com/sciencenerd-des/openai-ai-deployment-portfolio)** | Multimodal agent that reads Indian GST invoices (incl. regional-language scans) into validated, structured data and flags anomalies. Deterministic audit layer + evals + zero-key mock mode. | OpenAI Agents SDK · Responses API (vision) · FastAPI |
-| **[Financial Agents](https://github.com/sciencenerd-des/Financial_Agents)** | Event-driven five-agent mesh (perception · drafting · verification · orchestration · translation) with a FastAPI gateway, approval-gated workflow, and tests. | Python · multi-agent · FastAPI · Docker |
-| **[Upwork Portfolio](https://github.com/sciencenerd-des/upwork-portfolio)** | Three full-stack apps: an automated report generator, a document-intelligence service, and a task manager — each one-click deployable. | Python · Streamlit · FastAPI · Docker |
-| **[Task Manager](https://github.com/sciencenerd-des/task-manager)** | Full-stack Kanban app with real-time sync, OAuth, and AI-assisted natural-language task entry (OpenAI, with a zero-key fallback). | Next.js 14 · Convex · WorkOS · OpenAI |
-| **[MiniMythos](https://github.com/sciencenerd-des/minimythos)** | Research system around a recurrent-depth reasoning architecture for coding agents. | Python · PyTorch |
+In progress: video game sales by genre and platform, and an e-commerce delivery and reviews analysis.
 
----
+## What you can hire me for
 
-### 🧰 What I build with
+● main tool &nbsp; ○ also used
 
-`Python` · `TypeScript` · `FastAPI` · `Next.js` · `Pydantic` · `Docker` · `pytest`
-**LLM/agents:** OpenAI Agents SDK · Responses API · multimodal/vision · eval-driven development · human-in-the-loop pipelines
+| Service | Tableau | Power BI | Excel | SQL | Python | R |
+|:--|:-:|:-:|:-:|:-:|:-:|:-:|
+| **Interactive dashboards**<br><sub>Dashboards your team can filter and explore</sub> | ● | ● | ○ | ○ | | |
+| **Data cleaning and prep**<br><sub>Messy exports turned into tidy, documented tables</sub> | | | ● | ● | ● | ○ |
+| **Reporting automation**<br><sub>Weekly and monthly reports that build themselves</sub> | | ○ | ● | ○ | ● | |
+| **Statistical analysis and A/B tests**<br><sub>Clear answers on what changed and whether it matters</sub> | | | ○ | | ● | ● |
+| **Financial and audit analytics**<br><sub>Reconciliations, variance checks, exception reports</sub> | ○ | ○ | ● | ● | ○ | |
+| **KPI design and data modeling**<br><sub>Metric definitions and models that stay consistent</sub> | ● | ● | ○ | ● | | |
 
----
+## How a dashboard project runs
 
-### ✍️ Writing
+A typical single dashboard takes about two weeks. You see a working draft by day five.
 
-- [Model reads, code judges: a multimodal agent you can actually trust](https://github.com/sciencenerd-des/writing/blob/main/posts/01-model-reads-code-judges.md) — splitting an AI document feature so the model handles perception and deterministic code makes every correctness call.
-- [Eval-gating an LLM feature: from "seems to work" to a CI check](https://github.com/sciencenerd-des/writing/blob/main/posts/02-eval-gating-llm-features.md) — turning fuzzy behaviour into a labelled eval with a pass/fail threshold in CI.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/process-dark.png">
+  <img src="assets/process-light.png" width="100%" alt="Project timeline over ten working days: intro call and brief on day 1, data access and audit days 1 to 3, cleaning and modeling days 3 to 5, first dashboard draft days 5 to 8, review and changes days 8 to 10, handover on day 10.">
+</picture>
 
-More in [**sciencenerd-des/writing**](https://github.com/sciencenerd-des/writing).
+## Code projects
 
----
+| Project | What it is | Built with |
+|:--|:--|:--|
+| [Growth analytics dashboard](https://github.com/sciencenerd-des/Resume_Projects/tree/main/Project_1) | Funnel, retention cohorts and CAC vs LTV on a Python star-schema pipeline, with a Power BI model and DAX | Python, Power BI, React |
+| [Bharat Doc Intelligence](https://github.com/sciencenerd-des/openai-ai-deployment-portfolio) | Reads Indian GST invoices into validated, structured data and flags anomalies, with a deterministic audit layer and evals | OpenAI Agents SDK, FastAPI |
+| [Financial Agents](https://github.com/sciencenerd-des/Financial_Agents) | Event-driven multi-agent workflow with approval gates and a FastAPI gateway | Python, FastAPI, Docker |
+| [Task Manager](https://github.com/sciencenerd-des/task-manager) | Kanban app with real-time sync and natural-language task entry | Next.js, Convex, WorkOS |
+| [Upwork portfolio](https://github.com/sciencenerd-des/upwork-portfolio) | Report generator, document intelligence service and task manager | Python, Streamlit, FastAPI |
 
-### 📫 Reach me
+Writing on reliable LLM features lives in [sciencenerd-des/writing](https://github.com/sciencenerd-des/writing).
 
-- ✉️ b.mondal0000@gmail.com
-- 💻 [github.com/sciencenerd-des](https://github.com/sciencenerd-des)
+## Start a project
+
+Email **[bmondal0000@gmail.com](mailto:bmondal0000@gmail.com?subject=Project%20enquiry)**. A good first email covers where your data lives, the questions the dashboard should answer, who will use it, and your deadline.
+
+Kolkata, India (UTC+5:30). Works in English, Hindi and Bengali.
