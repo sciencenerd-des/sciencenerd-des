@@ -7,6 +7,21 @@
 
 **[View the portfolio](https://sciencenerd-des.github.io/)** &nbsp;&nbsp; **[Email me about a project](mailto:bmondal0000@gmail.com?subject=Project%20enquiry)**
 
+## Building and explaining reliable AI workflows
+
+Alongside data analysis, I build tools for practical AI engineering and use
+Codex in my development workflow. These are selected examples to inspect:
+
+| Project | What to explore |
+| --- | --- |
+| [Forge](https://github.com/sciencenerd-des/forge) | Coding-agent contracts, independent checks, and regressions for false completion |
+| [Bharat Doc Intelligence](https://github.com/sciencenerd-des/openai-ai-deployment-portfolio) | Structured document extraction separated from deterministic validation; mock results are labelled |
+| [Technical writing](https://github.com/sciencenerd-des/writing) | Reproducible lessons, engineering decisions, and limits of the evidence |
+
+My focus is helping builders move from a promising AI-generated result to
+something they can explain and verify. These are personal projects; they do
+not imply affiliation with or endorsement by OpenAI.
+
 ## Five findings from my Tableau workbooks
 
 Each story point is a dashboard I built in Tableau Desktop from a public dataset. Click a dashboard to open it at full size.
